@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "harry";
+    src: url(./harry_p/HARRYP__.TTF) format("truetype");
+
+  }
+
+h1 {
+    text-align: center;
+    font-family: "harry", sans-serif;
+    font-size: 5vw;
+    color: #7A4B85;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "autora";
+    src: url(./have-you-seen-this-wizard_font/purple-3.ttf) format("truetype");
+  }
+
+h2 {
+    text-align: center;
+    font-family: "autora";
+    font-size: 2.5vw;
+    color: #7A4B85;
+}
+
+span {
+    font-size: 0.5em;
+}
+
+p {
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin: 2vw;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3.5vw;
+  }
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: left;
+  }
+
+  
+th {
+    border: 1px solid;
+    text-align: center;
+    vertical-align: middle;
+  }
+    
+  
+td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 35px;
+  }
